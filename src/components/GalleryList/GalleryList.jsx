@@ -1,7 +1,8 @@
 import GalleryItem from '../GalleryItem/GalleryItem'
 
 function GalleryList({
-    galleryList
+    galleryList,
+    fetchGallery
 }){
     return(
         <div>
@@ -9,7 +10,9 @@ function GalleryList({
                 <>
                     <GalleryItem
                     key={photo.id}
-                    photo={photo}/>
+                    photo={photo}
+                    fetchGallery={fetchGallery}
+                    />
                   </>
             ))}
      
