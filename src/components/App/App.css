@@ -1,11 +1,14 @@
+
+
 .App {
   text-align: center;
+  color:white;
 }
 
 .App-header {
   background-color: #222;
   padding: 1em;
-  color: white;
+  color:white;
   margin-bottom: 1em;
 }
 
@@ -17,7 +20,96 @@ img {
   width: 200px;
   height: 200px;
   margin: 15px;
+  border-radius: 8px;
+  outline-width: 2px;
+   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  
+
 }
 button {
   margin: 5px;
+}
+
+.desc {
+  align-items: center;
+  width: 200px;
+  height: 180px;
+  border-radius: 8px;
+
+  outline-width: 2px;
+   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  
+ 
+}
+.container{
+  display: inline-block;
+  flex-direction: row;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.container:hover{
+transform: scale(1.3);
+}
+
+body {
+  background-color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E737CE,#23A6D5, #23D5AB);
+  background-size:500% 500%;
+  position: relative;
+  animation: change 15s ease-in-out infinite;
+}
+
+@keyframes change{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+.likeBar {
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+border-radius: 8px;  
+padding: 5px;
+margin-left: 15px;
+margin-right: 15px;
+font-family: Arial, sans-serif;
+color: #fff;
+}
+button{
+  border-radius: 4px;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: thistle 5px;
+
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 15px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
