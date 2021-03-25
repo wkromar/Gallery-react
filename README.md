@@ -13,6 +13,7 @@
  ## Development Setup Instructions
 
 - Run `npm install`
+- There is no server here so use `npm start` to start the app.
   
   ## Production Build
 
