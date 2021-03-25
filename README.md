@@ -49,6 +49,6 @@ Before pushing to Heroku, run `npm run build` in terminal. This will create a bu
 - Navigate to `localhost:5000`
   
 ## Aknowledgments
-    - Prime Digital Academy for teaching me Full-Stack Development
-    - Dane Smith for his constant support
-    - Zhu Cohort for their support and positivity
+   - Prime Digital Academy for teaching me Full-Stack Development
+   - Dane Smith for his constant support
+   - Zhu Cohort for their support and positivity
