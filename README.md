@@ -10,7 +10,7 @@
  ## Add your images
   visit the `images` folder to add an image into the project. then visit `/server/modules/gallery.data.js` to add the images into the visible DOM. The app maps over this file to display the images.
   
-  ## Development Setup Instructions
+ ## Development Setup Instructions
 
 - Run `npm install`
   
@@ -22,7 +22,7 @@ Before pushing to Heroku, run `npm run build` in terminal. This will create a bu
 - Run `npm start`
 - Navigate to `localhost:5000`
   
-  ## Deployment
+ ## Deployment
 
 ### Heroku Prerequisite
 1. Sign up for an account on [Heroku.com](https://www.heroku.com/)
@@ -48,7 +48,7 @@ Before pushing to Heroku, run `npm run build` in terminal. This will create a bu
 - Run `npm start`
 - Navigate to `localhost:5000`
   
-  ## Aknowledgments
+## Aknowledgments
     - Prime Digital Academy for teaching me Full-Stack Development
     - Dane Smith for his constant support
     - Zhu Cohort for their support and positivity
